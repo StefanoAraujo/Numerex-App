@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">Numerex</string>
+  <style name="MeuTema">
+    <item name="android:actionBarStyle">@style/cor</item>
+  </style>
+  <style name="cor">
+    <item name="android:background">#15a769</item>
+  </style>
+</resources>
