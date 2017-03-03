@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_height="wrap_content"
-    android:layout_width="wrap_content"
-    android:layout_gravity="center"
-    android:columnCount="3"
-    android:rowCount="3"
-    android:orientation="vertical" >
-    <Button
-        android:text="Jogar"
-        android:id="@+id/Button_Play"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center" />
-    <Button
-        android:text="Ajuda"
-        android:id="@+id/Button_Ajuda"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center" />
-    <Button
-        android:text="Opções"
-        android:id="@+id/Button_Opcoes"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center" />
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:layout_gravity="center"
+android:columnCount="3"
+android:rowCount="3"
+android:orientation="vertical">
+  <Button
+  android:text="Jogar"
+  android:id="@+id/Button_Play"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_gravity="center"
+  android:gravity="center" />
+  <Button
+  android:text="Ajuda"
+  android:id="@+id/Button_Ajuda"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_gravity="center" />
+  <Button
+  android:text="Opções"
+  android:id="@+id/Button_Opcoes"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_gravity="center" />
 </GridLayout>
