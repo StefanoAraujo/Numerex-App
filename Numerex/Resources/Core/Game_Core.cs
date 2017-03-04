@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Android.Widget;
+using System;
 
 namespace Numerex.Core
 {
@@ -25,9 +26,24 @@ namespace Numerex.Core
             {
                 for (int j = 0; j < 10; j++)
                 {
-                    Console.WriteLine("|" + matriz[i,j] + "|");
+                    Console.WriteLine("|" + matriz[i, j] + "|");
                 }
             }
+        }
+
+        public int preenche_Botoes(int linha, int coluna)
+        {
+            return sequencia_numeros[linha, coluna];
+        }
+
+        public int gerador_Posicao_Linha()
+        {
+            return gerador_numeros.Next(0, 7);
+        }
+
+        public int gerador_Posicao_Coluna()
+        {
+            return gerador_numeros.Next(0, 9);
         }
     }
 }

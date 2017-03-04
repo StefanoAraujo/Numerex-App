@@ -24,8 +24,142 @@ namespace Numerex.Resources
             // Create your application here
 
             //teste
+            Button[,] btne = new Button[7, 10];
             Game_Core escreve = new Game_Core();
             escreve.escreve_Matriz(escreve.preenche_Matriz());
+
+            btne[0, 0] = FindViewById<Button>(Resource.Id.btn_0x0);
+            btne[0, 1] = FindViewById<Button>(Resource.Id.btn_0x1);
+            btne[0, 2] = FindViewById<Button>(Resource.Id.btn_0x2);
+            btne[0, 3] = FindViewById<Button>(Resource.Id.btn_0x3);
+            btne[0, 4] = FindViewById<Button>(Resource.Id.btn_0x4);
+            btne[0, 5] = FindViewById<Button>(Resource.Id.btn_0x5);
+            btne[0, 6] = FindViewById<Button>(Resource.Id.btn_0x6);
+            btne[0, 7] = FindViewById<Button>(Resource.Id.btn_0x7);
+            btne[0, 8] = FindViewById<Button>(Resource.Id.btn_0x8);
+            btne[0, 9] = FindViewById<Button>(Resource.Id.btn_0x9);
+            btne[1, 0] = FindViewById<Button>(Resource.Id.btn_1x0);
+            btne[1, 1] = FindViewById<Button>(Resource.Id.btn_1x1);
+            btne[1, 2] = FindViewById<Button>(Resource.Id.btn_1x2);
+            btne[1, 3] = FindViewById<Button>(Resource.Id.btn_1x3);
+            btne[1, 4] = FindViewById<Button>(Resource.Id.btn_1x4);
+            btne[1, 5] = FindViewById<Button>(Resource.Id.btn_1x5);
+            btne[1, 6] = FindViewById<Button>(Resource.Id.btn_1x6);
+            btne[1, 7] = FindViewById<Button>(Resource.Id.btn_1x7);
+            btne[1, 8] = FindViewById<Button>(Resource.Id.btn_1x8);
+            btne[1, 9] = FindViewById<Button>(Resource.Id.btn_1x9);
+            btne[2, 0] = FindViewById<Button>(Resource.Id.btn_2x0);
+            btne[2, 1] = FindViewById<Button>(Resource.Id.btn_2x1);
+            btne[2, 2] = FindViewById<Button>(Resource.Id.btn_2x2);
+            btne[2, 3] = FindViewById<Button>(Resource.Id.btn_2x3);
+            btne[2, 4] = FindViewById<Button>(Resource.Id.btn_2x4);
+            btne[2, 5] = FindViewById<Button>(Resource.Id.btn_2x5);
+            btne[2, 6] = FindViewById<Button>(Resource.Id.btn_2x6);
+            btne[2, 7] = FindViewById<Button>(Resource.Id.btn_2x7);
+            btne[2, 8] = FindViewById<Button>(Resource.Id.btn_2x8);
+            btne[2, 9] = FindViewById<Button>(Resource.Id.btn_2x9);
+            btne[3, 0] = FindViewById<Button>(Resource.Id.btn_3x0);
+            btne[3, 1] = FindViewById<Button>(Resource.Id.btn_3x1);
+            btne[3, 2] = FindViewById<Button>(Resource.Id.btn_3x2);
+            btne[3, 3] = FindViewById<Button>(Resource.Id.btn_3x3);
+            btne[3, 4] = FindViewById<Button>(Resource.Id.btn_3x4);
+            btne[3, 5] = FindViewById<Button>(Resource.Id.btn_3x5);
+            btne[3, 6] = FindViewById<Button>(Resource.Id.btn_3x6);
+            btne[3, 7] = FindViewById<Button>(Resource.Id.btn_3x7);
+            btne[3, 8] = FindViewById<Button>(Resource.Id.btn_3x8);
+            btne[3, 9] = FindViewById<Button>(Resource.Id.btn_3x9);
+            btne[4, 0] = FindViewById<Button>(Resource.Id.btn_4x0);
+            btne[4, 1] = FindViewById<Button>(Resource.Id.btn_4x1);
+            btne[4, 2] = FindViewById<Button>(Resource.Id.btn_4x2);
+            btne[4, 3] = FindViewById<Button>(Resource.Id.btn_4x3);
+            btne[4, 4] = FindViewById<Button>(Resource.Id.btn_4x4);
+            btne[4, 5] = FindViewById<Button>(Resource.Id.btn_4x5);
+            btne[4, 6] = FindViewById<Button>(Resource.Id.btn_4x6);
+            btne[4, 7] = FindViewById<Button>(Resource.Id.btn_4x7);
+            btne[4, 8] = FindViewById<Button>(Resource.Id.btn_4x8);
+            btne[4, 9] = FindViewById<Button>(Resource.Id.btn_4x9);
+            btne[5, 0] = FindViewById<Button>(Resource.Id.btn_5x0);
+            btne[5, 1] = FindViewById<Button>(Resource.Id.btn_5x1);
+            btne[5, 2] = FindViewById<Button>(Resource.Id.btn_5x2);
+            btne[5, 3] = FindViewById<Button>(Resource.Id.btn_5x3);
+            btne[5, 4] = FindViewById<Button>(Resource.Id.btn_5x4);
+            btne[5, 5] = FindViewById<Button>(Resource.Id.btn_5x5);
+            btne[5, 6] = FindViewById<Button>(Resource.Id.btn_5x6);
+            btne[5, 7] = FindViewById<Button>(Resource.Id.btn_5x7);
+            btne[5, 8] = FindViewById<Button>(Resource.Id.btn_5x8);
+            btne[5, 9] = FindViewById<Button>(Resource.Id.btn_5x9);
+            btne[6, 0] = FindViewById<Button>(Resource.Id.btn_6x0);
+            btne[6, 1] = FindViewById<Button>(Resource.Id.btn_6x1);
+            btne[6, 2] = FindViewById<Button>(Resource.Id.btn_6x2);
+            btne[6, 3] = FindViewById<Button>(Resource.Id.btn_6x3);
+            btne[6, 4] = FindViewById<Button>(Resource.Id.btn_6x4);
+            btne[6, 5] = FindViewById<Button>(Resource.Id.btn_6x5);
+            btne[6, 6] = FindViewById<Button>(Resource.Id.btn_6x6);
+            btne[6, 7] = FindViewById<Button>(Resource.Id.btn_6x7);
+            btne[6, 8] = FindViewById<Button>(Resource.Id.btn_6x8);
+            btne[6, 9] = FindViewById<Button>(Resource.Id.btn_6x9);
+
+            int[,] resultado_Sorteio = new int[7, 10];
+            
+
+            for (int i = 0; i < 7; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    resultado_Sorteio[i, j] = escreve.preenche_Botoes(i, j);
+                }
+            }
+
+            for (int i = 0; i < 7; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    btne[i, j].Text = resultado_Sorteio[i, j].ToString();
+                }
+            }
+
+            int position_X = 0, position_Y = 0;
+
+            int[,] resultado = new int[10, 4];
+
+            position_X = escreve.gerador_Posicao_Linha();
+            position_Y = escreve.gerador_Posicao_Coluna();
+
+            TextView base_0x0 = FindViewById<TextView>(Resource.Id.base_0x0);
+            TextView base_0x1 = FindViewById<TextView>(Resource.Id.base_0x1);
+            TextView base_0x2 = FindViewById<TextView>(Resource.Id.base_0x2);
+            TextView base_0x3 = FindViewById<TextView>(Resource.Id.base_0x3);
+            TextView base_0x4 = FindViewById<TextView>(Resource.Id.base_0x4);
+            TextView base_1x0 = FindViewById<TextView>(Resource.Id.base_1x0);
+            TextView base_1x1 = FindViewById<TextView>(Resource.Id.base_1x1);
+            TextView base_1x2 = FindViewById<TextView>(Resource.Id.base_1x2);
+            TextView base_1x3 = FindViewById<TextView>(Resource.Id.base_1x3);
+            TextView base_1x4 = FindViewById<TextView>(Resource.Id.base_1x4);
+            Console.WriteLine("X = " + position_X + "|" + "Y = " + position_Y);
+            //for (int i = 0; i < 4; i++)
+            //{
+                if (2 < 3 && 2 < 4)
+                {
+                    resultado[0, 0] = resultado_Sorteio[0, 1];
+                    resultado[0, 1] = resultado_Sorteio[0, 1 + 1];
+                resultado[0, 2] = resultado_Sorteio[0, 1 + 2];
+                resultado[0, 3] = resultado_Sorteio[0, 1 + 3];
+            }
+            //}
+
+            base_0x0.Text = resultado[0, 0].ToString() + resultado[0, 1].ToString() + resultado[0, 2].ToString() + resultado[0, 3].ToString();
+
+            /*
+            base_0x1.Text = resultado_1.ToString();
+            base_0x2.Text = resultado_2.ToString();
+            base_0x3.Text = resultado_3.ToString();
+            base_0x4.Text = resultado_4.ToString();
+            base_1x0.Text = resultado_5.ToString();
+            base_1x1.Text = resultado_6.ToString();
+            base_1x2.Text = resultado_7.ToString();
+            base_1x3.Text = resultado_8.ToString();
+            base_1x4.Text = resultado_9.ToString();
+            */
             //fim teste
 
             string color = "#15a769";
@@ -42,7 +176,7 @@ namespace Numerex.Resources
 
             //Program core
             Random gerador = new Random();
-            Button[,] btne = new Button[7, 10];
+            
             int[] valor_0 = new int[5], valor_1 = new int[5], valor_2 = new int[5], valor_3 = new int[5], valor_4 = new int[5], valor_5 = new int[5], valor_6 = new int[5], valor_7 = new int[5], valor_8 = new int[5], valor_9 = new int[5];
             for (int i = 0; i < 5; i++)
             {
@@ -75,6 +209,7 @@ namespace Numerex.Resources
             }
 
             //TextView
+            /*
             TextView base_0x0 = FindViewById<TextView>(Resource.Id.base_0x0);
             TextView base_0x1 = FindViewById<TextView>(Resource.Id.base_0x1);
             TextView base_0x2 = FindViewById<TextView>(Resource.Id.base_0x2);
@@ -96,77 +231,7 @@ namespace Numerex.Resources
             base_1x2.Text = resultado_7.ToString();
             base_1x3.Text = resultado_8.ToString();
             base_1x4.Text = resultado_9.ToString();
-
-                btne[0, 0] = FindViewById<Button>(Resource.Id.btn_0x0);
-                btne[0, 1] = FindViewById<Button>(Resource.Id.btn_0x1);
-                btne[0, 2] = FindViewById<Button>(Resource.Id.btn_0x2);
-                btne[0, 3] = FindViewById<Button>(Resource.Id.btn_0x3);
-                btne[0, 4] = FindViewById<Button>(Resource.Id.btn_0x4);
-                btne[0, 5] = FindViewById<Button>(Resource.Id.btn_0x5);
-                btne[0, 6] = FindViewById<Button>(Resource.Id.btn_0x6);
-                btne[0, 7] = FindViewById<Button>(Resource.Id.btn_0x7);
-                btne[0, 8] = FindViewById<Button>(Resource.Id.btn_0x8);
-                btne[0, 9] = FindViewById<Button>(Resource.Id.btn_0x9);
-                btne[1, 0] = FindViewById<Button>(Resource.Id.btn_1x0);
-                btne[1, 1] = FindViewById<Button>(Resource.Id.btn_1x1);
-                btne[1, 2] = FindViewById<Button>(Resource.Id.btn_1x2);
-                btne[1, 3] = FindViewById<Button>(Resource.Id.btn_1x3);
-                btne[1, 4] = FindViewById<Button>(Resource.Id.btn_1x4);
-                btne[1, 5] = FindViewById<Button>(Resource.Id.btn_1x5);
-                btne[1, 6] = FindViewById<Button>(Resource.Id.btn_1x6);
-                btne[1, 7] = FindViewById<Button>(Resource.Id.btn_1x7);
-                btne[1, 8] = FindViewById<Button>(Resource.Id.btn_1x8);
-                btne[1, 9] = FindViewById<Button>(Resource.Id.btn_1x9);
-                btne[2, 0] = FindViewById<Button>(Resource.Id.btn_2x0);
-                btne[2, 1] = FindViewById<Button>(Resource.Id.btn_2x1);
-                btne[2, 2] = FindViewById<Button>(Resource.Id.btn_2x2);
-                btne[2, 3] = FindViewById<Button>(Resource.Id.btn_2x3);
-                btne[2, 4] = FindViewById<Button>(Resource.Id.btn_2x4);
-                btne[2, 5] = FindViewById<Button>(Resource.Id.btn_2x5);
-                btne[2, 6] = FindViewById<Button>(Resource.Id.btn_2x6);
-                btne[2, 7] = FindViewById<Button>(Resource.Id.btn_2x7);
-                btne[2, 8] = FindViewById<Button>(Resource.Id.btn_2x8);
-                btne[2, 9] = FindViewById<Button>(Resource.Id.btn_2x9);
-                btne[3, 0] = FindViewById<Button>(Resource.Id.btn_3x0);
-                btne[3, 1] = FindViewById<Button>(Resource.Id.btn_3x1);
-                btne[3, 2] = FindViewById<Button>(Resource.Id.btn_3x2);
-                btne[3, 3] = FindViewById<Button>(Resource.Id.btn_3x3);
-                btne[3, 4] = FindViewById<Button>(Resource.Id.btn_3x4);
-                btne[3, 5] = FindViewById<Button>(Resource.Id.btn_3x5);
-                btne[3, 6] = FindViewById<Button>(Resource.Id.btn_3x6);
-                btne[3, 7] = FindViewById<Button>(Resource.Id.btn_3x7);
-                btne[3, 8] = FindViewById<Button>(Resource.Id.btn_3x8);
-                btne[3, 9] = FindViewById<Button>(Resource.Id.btn_3x9);
-                btne[4, 0] = FindViewById<Button>(Resource.Id.btn_4x0);
-                btne[4, 1] = FindViewById<Button>(Resource.Id.btn_4x1);
-                btne[4, 2] = FindViewById<Button>(Resource.Id.btn_4x2);
-                btne[4, 3] = FindViewById<Button>(Resource.Id.btn_4x3);
-                btne[4, 4] = FindViewById<Button>(Resource.Id.btn_4x4);
-                btne[4, 5] = FindViewById<Button>(Resource.Id.btn_4x5);
-                btne[4, 6] = FindViewById<Button>(Resource.Id.btn_4x6);
-                btne[4, 7] = FindViewById<Button>(Resource.Id.btn_4x7);
-                btne[4, 8] = FindViewById<Button>(Resource.Id.btn_4x8);
-                btne[4, 9] = FindViewById<Button>(Resource.Id.btn_4x9);
-                btne[5, 0] = FindViewById<Button>(Resource.Id.btn_5x0);
-                btne[5, 1] = FindViewById<Button>(Resource.Id.btn_5x1);
-                btne[5, 2] = FindViewById<Button>(Resource.Id.btn_5x2);
-                btne[5, 3] = FindViewById<Button>(Resource.Id.btn_5x3);
-                btne[5, 4] = FindViewById<Button>(Resource.Id.btn_5x4);
-                btne[5, 5] = FindViewById<Button>(Resource.Id.btn_5x5);
-                btne[5, 6] = FindViewById<Button>(Resource.Id.btn_5x6);
-                btne[5, 7] = FindViewById<Button>(Resource.Id.btn_5x7);
-                btne[5, 8] = FindViewById<Button>(Resource.Id.btn_5x8);
-                btne[5, 9] = FindViewById<Button>(Resource.Id.btn_5x9);
-                btne[6, 0] = FindViewById<Button>(Resource.Id.btn_6x0);
-                btne[6, 1] = FindViewById<Button>(Resource.Id.btn_6x1);
-                btne[6, 2] = FindViewById<Button>(Resource.Id.btn_6x2);
-                btne[6, 3] = FindViewById<Button>(Resource.Id.btn_6x3);
-                btne[6, 4] = FindViewById<Button>(Resource.Id.btn_6x4);
-                btne[6, 5] = FindViewById<Button>(Resource.Id.btn_6x5);
-                btne[6, 6] = FindViewById<Button>(Resource.Id.btn_6x6);
-                btne[6, 7] = FindViewById<Button>(Resource.Id.btn_6x7);
-                btne[6, 8] = FindViewById<Button>(Resource.Id.btn_6x8);
-                btne[6, 9] = FindViewById<Button>(Resource.Id.btn_6x9);
+            */
 
             int a_0 = 0, a_1 = 0, a_2 = 0, a_3 = 0, a_4 = 0, a_5 = 0, a_6 = 0, a_7 = 0, a_8 = 0;
             int b_0 = 0, b_1 = 0, b_2 = 0, b_3 = 0, b_4 = 0, b_5 = 0, b_6 = 0, b_7 = 0, b_8 = 0;
